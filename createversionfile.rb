@@ -1,4 +1,4 @@
-require 'double_bag_ftps'
+require 'sqlite3'
 
 $file = nil
 def OpenFile(filename)
