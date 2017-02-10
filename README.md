@@ -40,5 +40,5 @@ Hvis du ikke har ruby installert på maskinen eller du får feilmeldinger om man
    Dette kjører de tre ruby scriptene beskrevet over i rekkefølge.
 
 #Kilder
-Jeg mener jeg tok utgangspunkt i |denne filen](https://gist.github.com/evenv/3035416) da jeg lagde mine script.
+Jeg mener jeg tok utgangspunkt i [denne filen](https://gist.github.com/evenv/3035416) da jeg lagde mine script.
 
