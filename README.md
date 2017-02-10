@@ -14,12 +14,12 @@ Jeg gjør følgende:
 
 2. ruby createvinodb.rb
  
-   Dette opprettet databsen vino.db, parser alle html filene og legger varene inn i databasen.
+   Dette opprettet databasen vino.db, parser alle html filene og legger varene inn i databasen.
 
 3. ruby createversionfile.rb
  
    Dette oppretter en versjonsfil vino.txt. Appen leser innholdet i denne filen og sammenligner
-   med versjonen den har av databasen. Dersom vino.txt viser at det er en nyere versjon lastes 
+   med versjonen den har av databasen. Dersom vino.txt viser at det er en nyere versjon, lastes 
    databasen ned.
 
 #Docker
@@ -35,7 +35,7 @@ Hvis du ikke har ruby installert på maskinen eller du får feilmeldinger om man
  
    Dette endrer aktiv arbeidsmappe til /root
  
- 3. ./doit.sh
+3. ./doit.sh
  
    Dette kjører de tre ruby scriptene beskrevet over i rekkefølge.
 
