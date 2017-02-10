@@ -24,7 +24,7 @@ Hvis du ikke har ruby installert på maskinen eller du får feilmeldinger om man
  ssl-feil etc. kan du installere [docker](hub.docker.com) og kjøre følgende kommandoer i et
  terminalvindu:
  
- 1. docker run -it erlendthune/polpriser /bin/bash
+ 1. ./startdocker.sh
  Dette starter en Ubuntu linux maskin i terminalvinduet.
  
  2. cd 
