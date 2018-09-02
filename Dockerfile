@@ -15,6 +15,7 @@ RUN apt-get -y update && \
     apt-get -y install sshpass && \
     gem install nokogiri && \
     gem install sqlite3 && \
-    cd && git clone https://github.com/erlendthune/polpriser.git
+    gem install mechanize
 
+#CMD cd && git clone https://github.com/erlendthune/polpriser.git && cd polpriser && ./doit.sh
 CMD cd && cd polpriser && ./doit.sh
