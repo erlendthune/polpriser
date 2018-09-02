@@ -1,3 +1,3 @@
 #!/bin/sh
-docker run -it  -v /Users/erlendthune/Desktop/ruby/polpriser:/polpriser ubuntubasic  /bin/bash
+docker run -it  -v /Users/erlendthune/github/polpriser:/polpriser polpriser  /bin/bash
 

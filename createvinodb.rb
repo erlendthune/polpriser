@@ -16,14 +16,14 @@ require 'sqlite3'
 
 
 vintyper = {
-"0" => "rødvin",
+"0" => "rodvin",
 "1" => "hvitvin",
 "2" => "rosevin",
 "3" => "sterkvin",
 "4" => "musserendevin",
 "5" => "fruktvin",
 "6" => "brennevin",
-"7" => "øl",
+"7" => "ol",
 "8" => "perlendevin",
 "9" => "aromatisertvin",
 "10" => "sider",
