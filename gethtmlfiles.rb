@@ -11,7 +11,7 @@ baseurl = "https://www.vinmonopolet.no"
 #https://www.vinmonopolet.no/vmpSite/Nettbutikk-kategorier/R%C3%B8dvin/c/r%C3%B8dvin?q=::mainCategory:r%C3%B8dvin
 #https://www.vinmonopolet.no/vmpSite/Nettbutikk-kategorier/R%C3%B8dvin/c/r%C3%B8dvin?q=%3Arelevance%3AmainCategory%3Ar%C3%B8dvin%3AvisibleInSearch%3Atrue&page=0&searchType=
 urls = {
-#"rodvin"        => "/vmpSite/Nettbutikk-kategorier/R%C3%B8dvin/c/r%C3%B8dvin?q=::mainCategory:r%C3%B8dvin",
+"rodvin"        => "/vmpSite/Nettbutikk-kategorier/R%C3%B8dvin/c/r%C3%B8dvin?q=::mainCategory:r%C3%B8dvin",
 "hvitvin"       => "/vmpSite/Nettbutikk-kategorier/Hvitvin/c/hvitvin?q=::mainCategory:hvitvin",
 "rosevin"       => "/vmpSite/Nettbutikk-kategorier/Ros%C3%A9vin/c/ros%C3%A9vin?q=::mainCategory:ros%C3%A9vin",
 "sterkvin"      => "/vmpSite/Nettbutikk-kategorier/Sterkvin/c/sterkvin?q=::mainCategory:sterkvin",
