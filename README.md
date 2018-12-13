@@ -22,7 +22,7 @@ Jeg gjør følgende:
    med versjonen den har av databasen. Dersom vino.txt viser at det er en nyere versjon, lastes 
    databasen ned.
 
-#Docker
+# Docker
 Hvis du ikke har ruby installert på maskinen eller du får feilmeldinger om manglende biblioteker,
  ssl-feil etc. kan du installere [docker](hub.docker.com) og kjøre følgende kommandoer i et
  terminalvindu:
@@ -39,6 +39,6 @@ Hvis du ikke har ruby installert på maskinen eller du får feilmeldinger om man
  
    Dette kjører de tre ruby scriptene beskrevet over i rekkefølge.
 
-#Kilder
+# Kilder
 Jeg mener jeg tok utgangspunkt i [denne filen](https://gist.github.com/evenv/3035416) da jeg lagde mine script.
 
