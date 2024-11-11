@@ -7,16 +7,16 @@ Jeg lagde denne koden for å lage en sqlite3 database som jeg bruker i appen
 
 Jeg gjør følgende:
 
-1. ruby gethtmlfiles.rb
+- `ruby gethtmlfiles.rb`
 
    Dette henter ned alle websidene med varene til vinmonopolet. En og en side hentes med
    30 sekunders pause for ikke å bli oppfattet som et angrep på vinmonopolets nettsted.
 
-2. ruby createvinodb.rb
+- `ruby createvinodb.rb`
  
    Dette opprettet databasen vino.db, parser alle html filene og legger varene inn i databasen.
 
-3. ruby createversionfile.rb
+- `ruby createversionfile.rb`
  
    Dette oppretter en versjonsfil vino.txt. Appen leser innholdet i denne filen og sammenligner
    med versjonen den har av databasen. Dersom vino.txt viser at det er en nyere versjon, lastes 
@@ -27,15 +27,19 @@ Hvis du ikke har ruby installert på maskinen eller du får feilmeldinger om man
  ssl-feil etc. kan du installere [docker](hub.docker.com) og kjøre følgende kommandoer i et
  terminalvindu:
  
-1. ./startdocker.sh
+- `docker build -t polpriser .`
+
+   Dette bygger docker imaget 'polpriser'
+
+-  `./startdocker.sh`
  
    Dette starter en Ubuntu linux maskin i terminalvinduet.
  
-2. cd 
+- `cd` 
  
    Dette endrer aktiv arbeidsmappe til /root
  
-3. ./doit.sh
+- `./doit.sh`
  
    Dette kjører de tre ruby scriptene beskrevet over i rekkefølge.
 
