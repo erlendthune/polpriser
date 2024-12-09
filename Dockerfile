@@ -2,13 +2,14 @@
 #http://stackoverflow.com/questions/28302178/how-can-i-add-a-volume-to-an-existing-docker-container
 #https://iqbalnaved.wordpress.com/2014/07/10/how-to-install-sqlite-3-8-2-on-ubuntu-14-04-and-commands-for-creating-database-and-tables/
 
-FROM ubuntu:16.04
-RUN apt-get -y update && \
+FROM ubuntu:22.04
+
+RUN apt-get update && \
     apt-get -y install vim && \
     apt-get -y install ruby && \
     apt-get -y install build-essential patch && \
     apt-get -y install ruby-dev zlib1g-dev liblzma-dev && \
-    apt-get -y install sqlite3 libsqlite3-dev && \
+    apt-get -y install sqlite3 libsqlite3-dev pkg-config && \
     apt-get -y install openssh-server && \
     apt-get -y update && \
     apt-get -y install git && \

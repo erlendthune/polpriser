@@ -1,3 +1,3 @@
 #!/bin/sh
-docker run -it  -v /Users/erlendthune/github/polpriser:/polpriser polpriser  /bin/bash
+docker run -it  -v /Users/erlendthune/git/polpriser:/polpriser polpriser  /bin/bash
 
